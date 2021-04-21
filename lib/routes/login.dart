@@ -131,7 +131,7 @@ class _LoginState extends State<Login> {
                     TextButton(
                       child: Text(
                         "Don't you have an account?",
-                        style: kButtonTextStylePrimary,
+                        style: kLinkTextStylePrimary,
                       ),
                       onPressed: () {
                         Navigator.pop(context);
