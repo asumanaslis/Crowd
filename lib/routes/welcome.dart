@@ -19,6 +19,12 @@ class _WelcomeState extends State<Welcome> {
     });
   }
 
+  void goFeed(){
+    setState(() {
+      Navigator.pushNamed(context, '/feed');
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -52,8 +58,15 @@ class _WelcomeState extends State<Welcome> {
                       style: kButtonTextStyleCandy,
                     ),
                   ),
-                ],
+                  OutlineButton(
+                    color: Colors.teal.shade300,
+                    onPressed: goFeed,
+                    child: Text("Feed",
+                      style: kButtonTextStyleCandy,
+                ),
               ),
+            ],
+          ),
               TextButton(
                 onPressed: () {
                   Navigator.pushNamed(context, '');
