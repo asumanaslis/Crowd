@@ -144,7 +144,7 @@ class _Feed extends State<Feed> {
                         radius: 30.0,
                         backgroundImage: AssetImage("Elon.jpg"),
                       ),
-                      title: Text("Elon the fucking Musk", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0)),
+                      title: Text("Elon Musk", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0)),
                       subtitle: Text("Crowd-Former CTO"),
                       trailing: Icon(
                           Icons.more_horiz
@@ -395,7 +395,7 @@ class _Feed extends State<Feed> {
                           .of(context)
                           .size
                           .width,
-                      child: Text("Elon,are you fucking kidding us? This was the last warning!! Be smart", style: TextStyle(
+                      child: Text("Elon,are you kidding us? This was the last warning!! Be smart", style: TextStyle(
                           fontWeight: FontWeight.bold, fontSize: 20.0),),
                     ),
 
@@ -497,7 +497,7 @@ class _Feed extends State<Feed> {
                         radius: 30.0,
                         backgroundImage: AssetImage("Elon.jpg"),
                       ),
-                      title: Text("Elon the fucking Musk", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0)),
+                      title: Text("Elon Musk", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0)),
                       subtitle: Text("Crowd-Former CTO"),
                       trailing: Icon(
                           Icons.more_horiz
@@ -624,7 +624,7 @@ class _Feed extends State<Feed> {
                           .of(context)
                           .size
                           .width,
-                      child: Text("Shut the fuck up!! @elonmusk", style: TextStyle(
+                      child: Text("Shut up broo!! @elonmusk", style: TextStyle(
                           fontWeight: FontWeight.bold, fontSize: 20.0),),
                     ),
 
@@ -829,10 +829,7 @@ class _Feed extends State<Feed> {
                 ),
               )
           ),
-
-
-
-          Card(
+          /*Card(
               color: Colors.white70,
               child: Padding(
                 padding: EdgeInsets.all(5.0),
@@ -954,7 +951,7 @@ class _Feed extends State<Feed> {
                   ],
                 ),
               )
-          ),
+          ),*/
         ],
       ),
     );
