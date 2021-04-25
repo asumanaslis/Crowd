@@ -7,7 +7,7 @@ import 'package:crowd/routes/signup.dart';
 import 'package:crowd/routes/feed.dart';
 
 void main() => runApp(MaterialApp(
-      initialRoute: "/walkThrough",
+      initialRoute: "/feed",
       routes: {
         '/walkThrough': (context) => WalkThrough(),
         '/welcome': (context) => Welcome(),
