@@ -110,6 +110,16 @@ class _Feed extends State<Feed> {
                       Row(
                         children: <Widget>[
                           Icon(
+                            Icons.thumb_down,
+                            size: 20.0,
+                          ),
+                          SizedBox(width: 5.0),
+                          Text("Dislike"),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Icon(
                             Icons.comment,
                             size: 20.0,
                           ),
@@ -220,6 +230,16 @@ class _Feed extends State<Feed> {
                             ),
                             SizedBox(width: 5.0),
                             Text("Like"),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Icon(
+                              Icons.thumb_down,
+                              size: 20.0,
+                            ),
+                            SizedBox(width: 5.0),
+                            Text("Dislike"),
                           ],
                         ),
                         Row(
@@ -349,6 +369,16 @@ class _Feed extends State<Feed> {
                         Row(
                           children: <Widget>[
                             Icon(
+                              Icons.thumb_down,
+                              size: 20.0,
+                            ),
+                            SizedBox(width: 5.0),
+                            Text("Dislike"),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Icon(
                               Icons.comment,
                               size: 20.0,
                             ),
@@ -458,6 +488,16 @@ class _Feed extends State<Feed> {
                             ),
                             SizedBox(width: 5.0),
                             Text("Like"),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Icon(
+                              Icons.thumb_down,
+                              size: 20.0,
+                            ),
+                            SizedBox(width: 5.0),
+                            Text("Dislike"),
                           ],
                         ),
                         Row(
@@ -578,6 +618,16 @@ class _Feed extends State<Feed> {
                         Row(
                           children: <Widget>[
                             Icon(
+                              Icons.thumb_down,
+                              size: 20.0,
+                            ),
+                            SizedBox(width: 5.0),
+                            Text("Dislike"),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Icon(
                               Icons.comment,
                               size: 20.0,
                             ),
@@ -692,6 +742,16 @@ class _Feed extends State<Feed> {
                         Row(
                           children: <Widget>[
                             Icon(
+                              Icons.thumb_down,
+                              size: 20.0,
+                            ),
+                            SizedBox(width: 5.0),
+                            Text("Dislike"),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Icon(
                               Icons.comment,
                               size: 20.0,
                             ),
@@ -801,6 +861,16 @@ class _Feed extends State<Feed> {
                             ),
                             SizedBox(width: 5.0),
                             Text("Like"),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Icon(
+                              Icons.thumb_down,
+                              size: 20.0,
+                            ),
+                            SizedBox(width: 5.0),
+                            Text("Dislike"),
                           ],
                         ),
                         Row(
