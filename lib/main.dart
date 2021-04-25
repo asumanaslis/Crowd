@@ -8,7 +8,7 @@ import 'package:crowd/routes/search.dart';
 import 'package:crowd/routes/bottomTabBar.dart';
 
 void main() => runApp(MaterialApp(
-      initialRoute: "/bottomTabBar",
+      initialRoute: "/search",
       routes: {
         '/walkThrough': (context) => WalkThrough(),
         '/welcome': (context) => Welcome(),
